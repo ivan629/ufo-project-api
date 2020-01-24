@@ -71,7 +71,8 @@ class UfoChart(BaseController):
                 'countries_data': {
                     'countries': self.chart_data_countries,
                     'selected_country': self.country
-                }
+                },
+                'test': 'test'
             }
 
         return self.jsonify(chart_response)
