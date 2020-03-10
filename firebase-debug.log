@@ -1,0 +1,30 @@
+[debug] [2020-03-04T13:06:30.935Z] ----------------------------------------------------------------------
+[debug] [2020-03-04T13:06:30.937Z] Command:       /usr/local/bin/firebase /Users/iholova/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --only hosting:ufo-analytics
+[debug] [2020-03-04T13:06:30.937Z] CLI Version:   7.14.0
+[debug] [2020-03-04T13:06:30.937Z] Platform:      darwin
+[debug] [2020-03-04T13:06:30.937Z] Node Version:  v12.13.1
+[debug] [2020-03-04T13:06:30.938Z] Time:          Wed Mar 04 2020 15:06:30 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-03-04T13:06:30.938Z] ----------------------------------------------------------------------
+[debug] [2020-03-04T13:06:30.938Z] 
+[debug] [2020-03-04T13:06:30.946Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-04T13:06:30.946Z] > authorizing via signed-in user
+[debug] [2020-03-04T13:06:30.946Z] [iam] checking project dbivan-29050 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-03-04T13:06:30.948Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dbivan-29050:testIamPermissions  
+
+[debug] [2020-03-04T13:06:31.930Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-04T13:06:31.932Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dbivan-29050  
+ 
+[debug] [2020-03-04T13:06:32.254Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dbivan-29050'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dbivan-29050/overview
+[debug] [2020-03-04T13:06:32.414Z] TypeError: Cannot read property 'deploys' of undefined
+    at /Users/iholova/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
